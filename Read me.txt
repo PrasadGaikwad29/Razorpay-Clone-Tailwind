@@ -1,0 +1,15 @@
+1) npm install -D tailwindcss vite
+2) npx tailwindcss init -p 
+3) in tailwind. config.js add ["*"] in the content
+4) in package.jason add  "scripts": {
+    "start":"vite"
+  },
+
+5)in main.css
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+6)link css with html file 
+
+7)npm run start
